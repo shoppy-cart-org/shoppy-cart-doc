@@ -91,7 +91,7 @@ This is a complete, production-shaped DevOps platform built on AWS EKS. It takes
 | **shoppy-cart-gitops** | Kubernetes desired state (Helm, ArgoCD, Gateway API, HPA) | GitOps team | https://github.com/shoppy-cart-org/shoppy-cart-gitops |
 | **shoppy-cart-platform** | ArgoCD governance (`AppProject`, guardrails) | Platform team | https://github.com/shoppy-cart-org/shoppy-cart-platform |
 | **shoppy-cart-observability** | Monitoring + logging stacks | SRE/Observability team | https://github.com/shoppy-cart-org/shoppy-cart-observability |
-| **shoppy-cart-docs** | This documentation | Everyone | https://github.com/shoppy-cart-org/shoppy-cart-docs |
+| **shoppy-cart-doc** | This documentation | Everyone | https://github.com/shoppy-cart-org/shoppy-cart-doc |
 
 **Boundary principle:** Each repo has one responsibility. Code ≠ config ≠ infra ≠ platform ≠ observability. The `shoppy-cart-gitops` repo is the app's runtime desired state; the `shoppy-cart-platform` repo defines the guardrails (`AppProject`) the app must deploy within. The `AppProject` is the contract between the two teams.
 
@@ -221,7 +221,7 @@ The goal is to demonstrate — and teach — the skills that separate a tutorial
 | shoppy-cart-gitops | Kubernetes desired state | https://github.com/shoppy-cart-org/shoppy-cart-gitops |
 | shoppy-cart-platform | ArgoCD governance | https://github.com/shoppy-cart-org/shoppy-cart-platform |
 | shoppy-cart-observability | Monitoring + logging | https://github.com/shoppy-cart-org/shoppy-cart-observability |
-| shoppy-cart-docs | This documentation | https://github.com/shoppy-cart-org/shoppy-cart-docs |
+| shoppy-cart-doc | This documentation | https://github.com/shoppy-cart-org/shoppy-cart-doc |
 
 ## The End Result
 
@@ -368,7 +368,7 @@ Each repo has **one responsibility**. Code, configuration, infrastructure, gover
 | **shoppy-cart-gitops** | GitOps team | Kubernetes desired state (Helm, ArgoCD, Gateway API, HPA) | https://github.com/shoppy-cart-org/shoppy-cart-gitops |
 | **shoppy-cart-platform** | Platform team | ArgoCD governance (`AppProject`, guardrails) | https://github.com/shoppy-cart-org/shoppy-cart-platform |
 | **shoppy-cart-observability** | SRE/Observability team | Monitoring + logging | https://github.com/shoppy-cart-org/shoppy-cart-observability |
-| **shoppy-cart-docs** | Everyone | This documentation | https://github.com/shoppy-cart-org/shoppy-cart-docs |
+| **shoppy-cart-docs** | Everyone | This documentation | https://github.com/shoppy-cart-org/shoppy-cart-doc |
 
 ## Repo 1: shoppy-cart-infra
 
@@ -426,7 +426,7 @@ Each repo has **one responsibility**. Code, configuration, infrastructure, gover
 
 **What it owns:** This documentation (README + `docs/01`–`09` + `LICENSE`).
 
-**URL:** https://github.com/shoppy-cart-org/shoppy-cart-docs
+**URL:** https://github.com/shoppy-cart-org/shoppy-cart-doc
 
 ## The Boundary Principle
 
