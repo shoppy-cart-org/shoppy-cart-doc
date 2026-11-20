@@ -1,4 +1,4 @@
-# shoppy-cart-docs
+# Shoppy Cart Full Documenation
 
 **Production-Grade GitOps Platform on AWS EKS**
 
